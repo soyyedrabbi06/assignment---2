@@ -125,7 +125,6 @@ nav ul li a:hover {
 
 .btn-group{
     display: flex;
-    /* justify-content: space-between; */
     margin-top: 20px;
 }
 
@@ -583,53 +582,42 @@ select[type='text-2'] {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.team-img-container img{
-    max-width: 100%;
+.team-img-container img {
     border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.measure{
-    width: 100%;
-    height: 100%;
-}
-/* .measure-2{
-    width: 100%;
-    height: 100%;
-}
-.measure-3{
-    width: 100%;
-    height: 100%;
-}
-.measure-4{
-    width: 100%;
-    height: 100%;
-}
-.measure-5{
-    width: 100%;
-    height: 100%;
-}
-.measure-6{
-    width: 100%;
-    height: 100%;
-} */
-
-.img-contain-1{
+.img-contain-1 {
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 .img-contain-2{
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 .img-contain-3{
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 .img-contain-4{
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 .img-contain-5{
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 .img-contain-6{
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .img-title{
@@ -638,36 +626,6 @@ select[type='text-2'] {
     bottom: 40px;
     left: 30px;
 }
-/* .img-title{
-    color: #FFFFFF;
-    position: absolute;
-    bottom: 40px;
-    left: 30px;
-}
-.img-title{
-    color: #FFFFFF;
-    position: absolute;
-    bottom: 40px;
-    left: 30px;
-}
-.img-title{
-    color: #FFFFFF;
-    position: absolute;
-    bottom: 40px;
-    left: 30px;
-}
-.img-title{
-    color: #FFFFFF;
-    position: absolute;
-    bottom: 40px;
-    left: 30px;
-}
-.img-title{
-    color: #FFFFFF;
-    position: absolute;
-    bottom: 40px;
-    left: 30px;
-} */
 
 .designation{
     color: rgba(255, 255, 255, 0.5);
@@ -675,36 +633,6 @@ select[type='text-2'] {
     bottom: 20px;
     left: 30px;
 }
-/* .designation-2{
-    color: rgba(255, 255, 255, 0.5);
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
-}
-.designation-3{
-    color: rgba(255, 255, 255, 0.5);
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
-}
-.designation-4{
-    color: rgba(255, 255, 255, 0.5);
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
-}
-.designation-5{
-    color: rgba(255, 255, 255, 0.5);
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
-}
-.designation-6{
-    color: rgba(255, 255, 255, 0.5);
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
-} */
 
 /* meet our team end */
 
@@ -799,9 +727,6 @@ select[type='text-2'] {
         left: 0;
         bottom: 330px;
     }
-    /* .padding-top {
-        padding-top: 0px;
-    } */
     .section-description {
         width: 330px;
         line-height: 30px;
@@ -811,8 +736,7 @@ select[type='text-2'] {
         padding-bottom: 60px;
     }
     .run {
-        padding: 30px
-        /* padding-bottom: 50px; */
+        padding: 30px;
     }
     .run-container{
         flex-direction: column;
@@ -825,11 +749,6 @@ select[type='text-2'] {
         width: 300px;
         line-height: 25px;
     }
-    /* .join {
-        margin-top: 30px;
-        width: 100%;
-        margin-bottom: 30px;
-    } */
     .join-now {
         width: 100%;
         margin-bottom: 20px;
@@ -869,9 +788,6 @@ select[type='text-2'] {
     .calc-your-bmi-description {
         width: 340px;
     }
-    /* .padding-top {
-        padding-top: 80px;
-    } */
     .meet-our-team-description {
         width: 325px;
     }
